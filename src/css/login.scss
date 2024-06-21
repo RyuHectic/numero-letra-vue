@@ -1,0 +1,22 @@
+@import 'src/css/quasar.variables.scss';
+
+.my-card {
+  width: 400px
+}
+.my-main {
+  border: solid 5px black;
+}
+
+.my-width {
+  width: 400px;
+}
+
+.my-card-header {
+  background-color: $secondary;
+  color: white;
+}
+
+.my-btn {
+  padding-left: 80px;
+  padding-right: 80px;
+}

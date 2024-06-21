@@ -1,0 +1,22 @@
+@import 'src/css/quasar.variables.scss';
+
+$border: 1.5px solid;
+
+.btn-edit {
+  border: $border $edit-color;
+  color: $edit-color
+}
+
+.btn-delete {
+  border: $border $delete-color;
+  color: $delete-color
+}
+
+.btn-view {
+  border: $border $view-color;
+  color: $view-color;
+}
+
+.myIcon {
+  padding-top: 7px
+}

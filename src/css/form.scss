@@ -1,0 +1,156 @@
+@import 'src/css/quasar.variables.scss';
+
+$form-width: 500px;
+$footer-background-color: rgb(235, 235, 235);
+$disable-bgcolor: rgb(239, 239, 239);
+
+.btn-primary {
+  background-color: $primary;
+  color: white;
+}
+
+.btn-secondary{
+  background-color: $footer-background-color;
+  color: $primary;
+}
+
+.my-card {
+  width: $form-width;
+  border-radius: 10px;
+}
+
+.with-close {
+  border-top-right-radius: 17px !important;
+}
+
+.my-close-icon {
+  float: right !important;
+  margin-right: -16px !important;
+  margin-top: -16px !important;
+}
+
+.my-card-action {
+  background-color: $footer-background-color;
+}
+
+.my-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100% !important;
+}
+
+.btn-dialog {
+  width: 110px;
+  border-radius: 8px;
+  height: 35px;
+}
+
+.scroll-area-form {
+  max-height: calc(100vh - 250px) !important;
+  max-width: $form-width;
+}
+
+.height-wizard {
+  height: calc(100vh - 200px) !important;
+}
+
+.no-padding .q-stepper__step-inner {
+  padding: 0px !important;
+}
+
+$panel-height: calc(100vh - 270px);
+.q-panel {
+  height: $panel-height;
+  margin-bottom: 20px;
+}
+
+$tree-height: calc(100vh - 178px);
+.my-height-tree {
+  height: $tree-height !important;
+}
+
+.my-active-color {
+  color: $primary !important;
+}
+
+.my-selected-menu {
+  color: white;
+  background: #F2C037
+}
+
+$list-height: calc(100vh - 358px);
+.list-scroll {
+  height: $list-height;
+}
+
+.max-list-height {
+  height: $list-height;
+  padding: 2px;
+}
+
+.q-stepper--horizontal .q-stepper__step-inner {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.my-image-list {
+  height: 38px !important;
+  width: 38px !important;
+}
+
+.my-accept-btn {
+  min-height: 65px !important;
+  text-align: right;
+  padding-top: 15px;
+  border-radius: 8px;
+}
+
+.nav-height {
+  max-height: 65px;
+}
+
+.space-bottom {
+  margin-top: 15px;
+}
+
+.q-stepper__tab {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.my-validation-message {
+  color: #c10015;
+  font-size: 11px;
+}
+
+.q-time__now-button {
+  background-color: $primary;
+}
+
+.no-space {
+  padding: 3px 0px 0px 0px !important;
+}
+
+.q-field--disabled .q-field__control {
+  background-color: $disable-bgcolor;
+}
+
+.btns-align-right {
+  justify-content: flex-end;
+}
+
+.btns-align-center {
+  justify-content: center;
+}
+
+.edit-form {
+  font-size: x-small;
+}
+
+.activeEdition {
+  color: $primary;
+}
+
+.inactiveEdition {
+  color: grey;
+}
